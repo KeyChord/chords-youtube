@@ -1,0 +1,25 @@
+{
+  "name": "@keychord/chords-youtube",
+  "displayName": "YouTube Chords",
+  "version": "0.0.1",
+  "description": "Chords for YouTube in a Chromium browser or Brave web app.",
+  "categories": [
+    "Media"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KeyChord/chords-youtube"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "bun test --isolate"
+  },
+  "devDependencies": {
+    "@keychord/chordtest": "workspace:*",
+    "@keychord/config": "catalog:",
+    "@keychord/tsconfig": "catalog:",
+    "@types/bun": "^1.4.3",
+    "happy-dom": "^21.0.1"
+  },
+  "packageManager": "pnpm@12.11.2"
+}
